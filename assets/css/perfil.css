@@ -1,0 +1,114 @@
+#bodyPerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+       gap: 29%;
+}
+
+.titleHeader{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.titleInformation{
+    font-weight: bold;
+}
+
+.wrapperPerfil{
+    display: flex;
+    padding: 40px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.wrapperDetails{
+    width: 60%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imgPerfil{
+    background-image: url("../imgs/Profile-SemFundo.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+
+.listInformations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#buttonDownload{
+    border-radius: 40px;
+    border: 1px solid;
+    font-weight: 700;
+    letter-spacing: .25px;
+    display: inline-block;
+    cursor: pointer;
+    width: 70%;
+    background-color: #ff9900;
+}
+
+#buttonDownload:hover{
+    background-color: #ec7211;
+}
+
+
+.wrapperTopics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid 1px;
+    flex-grow: 2;
+    gap: 20px;
+}
+
+.titleSections{
+    font-size: large;
+    font-weight: bold;
+}
+
+.listHabilidades{
+    display: flex;
+    gap: 5px;
+}
+
+.itemHabilidades{
+    padding-left: 10px;
+    border-left: solid 2px;
+}
+
+#listHabilidadesPeterson{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+#buttonHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    background-color: #ff9900;
+    align-self: center;
+}
+
+#buttonHome:hover{
+    background-color: #ec7211;
+}

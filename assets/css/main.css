@@ -1,0 +1,197 @@
+body{
+    background-color: #161e2d;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 2vw 3vw;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    background-color: #ffffff;
+    color: #161e2d;
+    height: 70px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.titlesBoxes{
+    font-weight: bold;
+}
+
+.subTitleElegant{
+    font-size: 1.5rem;
+}
+
+
+/* Cover */
+
+#cover{
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapperBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divWrapperBox{
+    flex-grow: 1;
+    background-color: #ffffff;
+    background-image: url("../imgs/icons8-amazon-web-services.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: #ff9900;
+    color: rgba(0,0,0,1);
+    width: 300px;
+    height: 200px;
+}
+
+button{
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid #f90;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover{
+    background-color: #dfdfdf;
+}
+
+main{
+    margin-top: 2vw;
+    padding: 2%;
+}
+
+.titleMain{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: normal;
+    margin: 25px;
+}
+
+.gridIntegrantes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardIntegrantes{
+    box-shadow: rgb(148, 175, 255) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    background-color: #232f3e;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.linkCardIntegrantes{
+    color: #ffffff;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.buttonPerfil{
+    background-color: #ff9900;
+    width: 80%;
+}
+
+
+.buttonPerfil:hover{
+    background-color: #ec7211;
+}
+
+
+.gridTutores{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15vw;
+}
+
+hr{
+    width: 200px;
+    border: none;
+    height: 2px;
+    background-color:#ffffff;
+    background: linear-gradient(to right, transparent, white, transparent);
+}
+
+.box2{
+    display: flex;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: #ff9900;
+    color: rgba(0,0,0,1);
+    width: 170%;
+    height: 200px;
+}
+
+.mundi{
+    width: 100%;
+    background-image: url("../imgs/aws-regions-map-2023-1030x615.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    padding: 2vw 3vw;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.error{
+    background-image: url("../../404.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 62%;
+}
